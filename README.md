@@ -1,5 +1,13 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/58HShPQN)
-# Data Mining and Machine Learning Group Coursework
+# Spotify-Songs Popularity Prediction
+_In this group project for the Data Mining and Machine Learning course, I collaborated closely with a team using GitHub as our primary platform for version control and ?collaboration. The project covered a range of data mining and machine learning techniques, including foundational concepts, generative models, discriminative learning, and the practical application of these methods. My contributions were focused in two main areas: first, I pre-processed the data by standardizing and balancing the raw, unstructured dataset. Second, I analyzed song popularity predictions using a decision tree model, refining the model to improve predictive accuracy._
+|||
+|--|--|
+| **Project's Aim:** | to predict a musical track's popularity based on its audio features |
+| **Learning Outcomes:** | work collaboratively to navigate through the various requirement phases, from selecting appropriate datasets to applying advanced machine learning techniques. The project's outcomes will contribute to the understanding of the selected datasets, provide solutions to research questions, and demonstrate proficiency in data analysis and machine learning. |
+| **Team Size:** | 5 |
+| **Project Run:** | 10 weeks |
+| **Grade:** | A |
+|||
 
 ## Group Members
 
