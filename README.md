@@ -12,7 +12,7 @@ _In this group project for the Data Mining and Machine Learning course, I collab
 ## Group Members
 
 1. Alex Varbanov @verbal-ale
-2. Diego Velasquez @Diego15457
+2. Diego Velasquez @DiegoV_Eng
 3. Alexandra Cures @ac234
 4. Saiprasad Murali @saiprasadm1998
 5. Sankalp Arora @sankalp-s
