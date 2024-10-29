@@ -307,7 +307,7 @@ These visualizations cover a wide range of aspects, including feature distributi
 In this section, we examine the distributions of various features from our dataset using distribution plots. Each subplot in the grid provides insights into the distribution characteristics of different features.
 
 <p align="center">
-  <img src="https://github.com/dmml-heriot-watt/group-coursework-machine-learners/raw/main/assets/Distplots.png" alt="Distribution plots" width="850" height="750">
+  <img src="https://raw.githubusercontent.com/DiegoV-Eng/Spotify-Song-Popularity-Prediction/refs/heads/main/assets/Distplots.png" alt="Distribution plots" width="850" height="750">
 </p>
 
 The key observations are as follows:
@@ -318,12 +318,12 @@ The key observations are as follows:
 - The loudness feature's distribution is centered around the mean, suggesting a relatively uniform spread.
 - Popularity scores follow a right-skewed distribution, with the majority of songs concentrated in the lower popularity range.
 
-The feature selection analysis in [EDA_Final.ipynb](https://github.com/dmml-heriot-watt/group-coursework-machine-learners/blob/main/notebooks/EDA/EDA_Final.ipynb) utilized correlation-based matrices and tree-based models to identify key features 
+The feature selection analysis in [EDA_Final.ipynb](https://github.com/DiegoV-Eng/Spotify-Song-Popularity-Prediction/blob/main/notebooks/EDA/Final_EDA.ipynb) utilized correlation-based matrices and tree-based models to identify key features 
 
 Using heatmaps as a visualization tool.
 
 <p align="center">
-  <img src="https://github.com/dmml-heriot-watt/group-coursework-machine-learners/blob/main/assets/Heatmap.png" alt="Distribution plots" width="800" height="750">
+  <img src="/assets/Heatmap.png" alt="Distribution plots" width="800" height="750">
 </p>
 
 Using tree-based models to get the feature importance scores:
