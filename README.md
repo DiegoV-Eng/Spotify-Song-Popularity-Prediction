@@ -381,7 +381,7 @@ The observed exponential increase in the weighted popularity of songs after 2008
 2.3.2 Average Duration by Year
 
 <p align="center">
-  <img src="https://github.com/dmml-heriot-watt/group-coursework-machine-learners/blob/main/assets/Average_duration.png" alt="Distribution plots" width="800" height="450">
+  <img src="https://raw.githubusercontent.com/DiegoV-Eng/Spotify-Song-Popularity-Prediction/refs/heads/main/assets/Average_duration.png" alt="Distribution plots" width="800" height="450">
 </p>
 
 The graph depicting the average duration by year reveals a predominant range of 5 to 7.5 minutes for song durations. Furthermore, it illustrates a declining trend in average song durations over the years.
@@ -389,7 +389,7 @@ The graph depicting the average duration by year reveals a predominant range of 
 2.3.3 Mean Popularity by Seasons
 
 <p align="center">
-  <img src="https://github.com/dmml-heriot-watt/group-coursework-machine-learners/blob/main/assets/Popularity%20with%20seasons.png" alt="Distribution plots" width="600" height="500">
+  <img src="https://raw.githubusercontent.com/DiegoV-Eng/Spotify-Song-Popularity-Prediction/refs/heads/main/assets/Popularity%20with%20seasons.png" alt="Distribution plots" width="600" height="500">
 </p>
 
 The visualization of mean popularity by seasons, including autumn, spring, summer, and winter, showcases subtle variations in popularity. Songs released in summer tend to have slightly higher mean popularity (5.42), while those in spring and autumn hover around similar popularity levels (5.26 and 5.23, respectively). This suggests that the season of release might have a minor influence on song popularity, with summer releases attracting a slightly larger audience.
@@ -397,7 +397,7 @@ The visualization of mean popularity by seasons, including autumn, spring, summe
 2.3.3 Relative frequencies
 
 <p align="center">
-  <img src="https://github.com/dmml-heriot-watt/group-coursework-machine-learners/blob/main/assets/Freq_dist.png" alt="Distribution plots" width="550" height="500">
+  <img src="https://raw.githubusercontent.com/DiegoV-Eng/Spotify-Song-Popularity-Prediction/refs/heads/main/assets/Freq_dist.png" alt="Distribution plots" width="550" height="500">
 </p>
 
 In the analysis, an imbalanced relative frequency distribution of the 'popularity' categories was observed, with the 'low' popularity category being identified as the majority class, while the 'medium' and 'high' popularity categories were represented as the minority classes. Imbalanced datasets may result in model bias and reduced performance, as the predictions tend to be dominated by the majority class, while the minority classes receive less attention. To mitigate this issue and ensure that fair predictions can be made across all popularity categories, the Synthetic Minority Over-sampling Technique (SMOTE) was employed. SMOTE is systematically used to generate synthetic samples from the minority classes, thus creating a more balanced dataset. This approach allows performance improvement in the model and the reduction of bias when predicting popularity categories, ensuring that the 'medium' and 'high' categories receive the attention they deserve in our analysis."
