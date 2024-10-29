@@ -342,22 +342,22 @@ To visualize the relationships between these key features and popularity, scatte
 
 | Acousticness vs Popularity   | Instrumentalness vs Popularity |
 | ---------------------------  | ------------------------------ |
-| ![Image 1](https://github.com/dmml-heriot-watt/group-coursework-machine-learners/raw/main/assets/Acousticness.png) | ![Image 2](https://github.com/dmml-heriot-watt/group-coursework-machine-learners/raw/main/assets/Instrumentalness.png) |
+| ![Image 1](https://github.com/DiegoV-Eng/Spotify-Song-Popularity-Prediction/blob/main/assets/Acousticness.png?raw=true) | ![Image 2](https://raw.githubusercontent.com/DiegoV-Eng/Spotify-Song-Popularity-Prediction/refs/heads/main/assets/Instrumentalness.png) |
 | Danceability vs Popularity   | Energy vs Popularity         |
-| ![Image 3](https://github.com/dmml-heriot-watt/group-coursework-machine-learners/raw/main/assets/danceability.png) | ![Image 4](https://github.com/dmml-heriot-watt/group-coursework-machine-learners/raw/main/assets/energy.png) |
+| ![Image 3](https://github.com/DiegoV-Eng/Spotify-Song-Popularity-Prediction/blob/main/assets/danceability.png?raw=true) | ![Image 4](https://github.com/DiegoV-Eng/Spotify-Song-Popularity-Prediction/blob/main/assets/energy.png?raw=true) |
 
 #### 2.2 Understanding target variable (popularity)
 
 The distribution of the 'popularity' feature, which serves as the target variable in our analysis, is visualized. This visualization is crucial for understanding the distribution of song popularity scores in the dataset, allowing us to assess central tendency measures like the mean and median and facilitating the identification of patterns and trends. These insights are considered valuable for subsequent data analysis and modeling tasks.
 
 <p align="center">
-  <img src="https://github.com/dmml-heriot-watt/group-coursework-machine-learners/blob/main/assets/Popularity_hist.png" alt="Distribution plots" width="800" height="450">
+  <img src="https://raw.githubusercontent.com/DiegoV-Eng/Spotify-Song-Popularity-Prediction/refs/heads/main/assets/Popularity_hist.png" alt="Distribution plots" width="800" height="450">
 </p>
 
 To detect the potential outliers and extreme values in the 'popularity' feature box plot visualization are used.
 
 <p align="center">
-  <img src="https://github.com/dmml-heriot-watt/group-coursework-machine-learners/blob/main/assets/Popularity_box.png" alt="Distribution plots" width="800" height="450">
+  <img src="https://raw.githubusercontent.com/DiegoV-Eng/Spotify-Song-Popularity-Prediction/refs/heads/main/assets/Popularity_box.png" alt="Distribution plots" width="800" height="450">
 </p>
 
 #### 2.3 Underlying patterns (Changes in mean popularity with years, average duration of songs, seasonal popularities)
@@ -367,13 +367,13 @@ In this section, an examination is conducted to unveil underlying patterns and i
 2.3.1 Mean Popularity by Year
 
 <p align="center">
-  <img src="https://github.com/dmml-heriot-watt/group-coursework-machine-learners/blob/main/assets/Mean_pop_year.png" alt="Distribution plots" width="800" height="450">
+  <img src="https://raw.githubusercontent.com/DiegoV-Eng/Spotify-Song-Popularity-Prediction/refs/heads/main/assets/Mean_pop_year.png" alt="Distribution plots" width="800" height="450">
 </p>
 
 A more accurate representation of the data is achieved by considering variations in importance or significance among the data points when using the weighted mean.
 
 <p align="center">
-  <img src="https://github.com/dmml-heriot-watt/group-coursework-machine-learners/blob/main/assets/Weighted%20mean%20popularity.png" alt="Distribution plots" width="800" height="450">
+  <img src="https://raw.githubusercontent.com/DiegoV-Eng/Spotify-Song-Popularity-Prediction/refs/heads/main/assets/Weighted%20mean%20popularity.png" alt="Distribution plots" width="800" height="450">
 </p>
 
 The observed exponential increase in the weighted popularity of songs after 2008 suggests a notable surge in the audience's interest, particularly in the realm of electronic music (since our dataset mostly comprises electronic music). This trend indicates an expanding fan base and heightened appreciation for electronic music genres since 2008.
