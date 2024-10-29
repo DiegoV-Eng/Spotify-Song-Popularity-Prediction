@@ -329,7 +329,7 @@ Using heatmaps as a visualization tool.
 Using tree-based models to get the feature importance scores:
 
 <p align="center">
-  <img src="https://github.com/dmml-heriot-watt/group-coursework-machine-learners/blob/main/assets/Regressors.png" alt="Distribution plots" width="500" height="450">
+  <img src="/assets/Regressors.png" alt="Distribution plots" width="500" height="450">
 </p>
 
 In conclusion, these 4 features exert a substantial influence on a song's popularity:
@@ -536,14 +536,14 @@ The model of DecisionTree will be useful to classify the popularity of our datas
 2. **Feature Scaling**: It is important to scale the information of the dataset to improve the performance of the model. To perform this, it was applied the standard, min-max and robust scaler methods. Adittionally, it was also considered the original data without feature scaling just for compairing the impact on it. As, it can see the original dataset is unbalanced and it may provoke low values in metrics of recall and F1
 
 <p align="center">
-  <img src="https://github.com/dmml-heriot-watt/group-coursework-machine-learners/raw/main/assets/Original_dataset.png" 
+  <img src="/assets/Original_dataset.png" 
 alt="Distribution plots" width="500" height="350">
 </p>  
 
 3. **Decision Tree Model**: This dataset (Spotify's songs) has unbalanced classes due to there is a majority class ('Low') y two others minitority class ('Medium' and 'High'). So, to address the condition of the dataset, it has been applied the model DecisionTreeClassifier considering different approaches in order to find the best evaluator. As first step, it necessary to balance the dataset applying resample techniques such as, SMOTE, SMOTETomek (SMK) and RandomOverSampler (ROS). As it can appreciate in the imabe below, with the resampled dataset it is better to apply algorithms for classifying.
    
 <p align="center">
-  <img src="https://github.com/dmml-heriot-watt/group-coursework-machine-learners/raw/main/assets/resampled_data.png" 
+  <img src="/assets/resampled_data.png" 
 alt="Distribution plots" width="500" height="350">
 </p>  
  Finally, we have considered a **ensemble method** called **Random Forest** which is based on the multiple decision tree.
@@ -555,7 +555,7 @@ alt="Distribution plots" width="500" height="350">
 **1.** Feature scaling is important to improve the performance of the model; however, it has been demonstrated that there is no sensitive in DecisionTree model applying standardization method as their accuracy got in training dataset are almost similar with a gap of 2.1% (maximum gap) as much as test dataset. In the image below, for every resample technique (SMOTE, SMK and ROS) with different scaling methods there is hardly any gap in the accuracy among itself. Therefore, it allows to claim either unscaled the training dataset or with application, the results on the accuracy would be almost similar. 
 
 <p align="center">
-  <img src="https://github.com/dmml-heriot-watt/group-coursework-machine-learners/raw/main/assets/Feature_Scaling_Decision_Tree.png" alt="Distribution plots" width="800" height="350">
+  <img src="/assets/Feature_Scaling_Decision_Tree.png" alt="Distribution plots" width="800" height="350">
 </p>
 
 In this scenery, the RandomOverSample (ROS) technique provides the best accuracy; however, it tends to overfit the result of the dataset lacking of flexibility. Therefore, a model which provides better generalisation would be SMK; in other words, the selected resample technique is SMOTETomek with the method of Robust Scaler to improve the performance of the model. 
@@ -565,7 +565,7 @@ Weight for Class ('Medium') : 29.77
 Weight for Class ('High') : 1101
 
 <p align="center">
-  <img src="https://github.com/dmml-heriot-watt/group-coursework-machine-learners/raw/main/assets/DT_class_weight.png" 
+  <img src="/assets/DT_class_weight.png" 
 alt="Distribution plots" width="500" height="350">
 </p>
 
@@ -583,7 +583,7 @@ According to the image above, it appreciates that test error converges since max
 <details>
   <summary> *Confussion Matrix for Decision Tree modifying class_weights:</summary>
 <p align="center">
-  <img src="https://github.com/dmml-heriot-watt/group-coursework-machine-learners/raw/main/assets/Confusion Matrix _ DT_weight_class.png" 
+  <img src="/assets/Confusion Matrix _ DT_weight_class.png" 
 alt="Distribution plots" width="500" height="350">
 </p>  
 
